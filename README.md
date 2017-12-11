@@ -77,3 +77,12 @@ There are 3 possible keywords to define a variable
 <br>
 
 JavaScript is dynamically typed language. That means same variable can hold multiple types. Types are associated with values not variables.
+
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Template literals/strings (ES6 feature)
+
+<hr>
+
+Backticks are used and to print a variable value, ${variable} is used.
