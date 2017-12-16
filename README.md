@@ -189,7 +189,8 @@ console.log(square(2));
 ### IIFE - Immediately invokable function expressions
 
 A function you declare and run at the same time.
-Make an expression by putting a function inside parenthesis, and do not forget to put () after expression
+Make an expression by putting a function inside parenthesis, and do not forget to put () after expression.
+It executes immediately after it’s created.
 
 ```
 (function(){
@@ -202,6 +203,8 @@ Make an expression by putting a function inside parenthesis, and do not forget t
   console.log('Hello' + name);
 })(name);
 ```
+
+When you use an IIFE you don't pollute the global scope. All variables that you define inside of an IIFE can not be accessed outside of it. This is the main benefit.
 
 
 ### Property methods
