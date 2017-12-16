@@ -78,6 +78,83 @@ There are 3 possible keywords to define a variable
 
 JavaScript is dynamically typed language. That means same variable can hold multiple types. Types are associated with values not variables.
 
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Array and array methods
+
+<hr>
+
+```
+//Create Arrays
+const numbers = [43, 56, 33, 23, 44, 36, 5];
+
+//Other way of creating arrays
+const numbers2 = new Array(22, 45, 33, 76, 54);
+
+let val;
+
+//Get array length
+val = numbers.length;                                     //Output: 7
+
+//Check if it is an array -> check by array object
+val = Array.isArray(numbers)                              //Output: true
+
+//Get single value from array
+val = numbers[3];                                         // Output: 23
+
+//Insert into array
+numbers[2] = 100;                                         //Output:  [43, 56, 100, 33, 23, 44, 36, 5]
+
+//Find index of value
+val = numbers.indexOf(36);
+
+/*
+* MUTATING ARRAYS
+*/
+
+
+//Add on to the end of array
+numbers.push(250);                                      //Output:  [43, 56, 100, 33, 23, 44, 36, 5, 250]
+
+//Add on to the front of array
+numbers.unshift(120);                                   //Output:  [120, 43, 56, 100, 33, 23, 44, 36, 5, 250]
+
+//Take off from end
+numbers.pop();                                          //Output:  [120, 43, 56, 100, 33, 23, 44, 36, 5]
+
+//Take off from front
+numbers.shift();                                         //Output:  [43, 56, 100, 33, 23, 44, 36, 5]
+
+//Splice values splice(i, n) => At position i, remove n elements
+numbers.splice(1, 1);                                      //Output:  [43, 100, 33, 23, 44, 36, 5]
+numbers.splice(1, 3);                                      //Output:  [43, 44, 36, 5]
+
+//Reverse the array
+numbers.reverse();                                        //Output: [5, 36, 44, 43]
+
+//concatenate arrays
+numbers.concat(numbers2)                                  // Output: [5, 36, 44, 43, 22, 45, 33, 76, 54]
+
+//Sorting arrays in ascending order -> Use the compare function
+numbers.sort(function(x, y){
+  return x - y;
+})
+
+
+//Sorting arrays in descending order -> Use the compare function
+numbers.sort(function(x, y){
+  return y - x;
+})
+
+//Find
+function under50(num) {
+  return num < 50
+}
+
+val = numbers.find(under50)
+
+```
+
 
 <hr>
 
