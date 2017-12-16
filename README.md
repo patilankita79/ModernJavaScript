@@ -167,7 +167,7 @@ Backticks are used and to print a variable value, ${variable} is used.
 
 <hr>
 
-# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Function Declarations, function expressions, IIFE - Immediately invokable function expressions, property methods
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Function Declarations and expressions, IIFE, property methods
 
 <hr>
 
@@ -244,3 +244,22 @@ todo.delete();
   <li>Browser is the global environment in client-side javascript whereas your computer machine is the enviornment in server-side javascript.</li>
   
 </ul>
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Block scope with let & const
+
+<hr>
+
+<ul> 
+  <li>var is a function scope declaration</li>
+   <li>Block scope => Anything that is wrapped in curly braces { }</li>
+   <li>let & const have block level scope and var has a function scope
+</li>
+</ul>
+
+
+
+
+
+
