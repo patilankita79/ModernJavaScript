@@ -163,3 +163,69 @@ val = numbers.find(under50)
 <hr>
 
 Backticks are used and to print a variable value, ${variable} is used.
+
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Function Declarations, function expressions, IIFE - Immediately invokable function expressions, property methods
+
+<hr>
+
+
+### Function expressions
+
+Putting a function as a variable assignment.
+Usually a named variable and anonymous function.
+Do not forget to put ; at the end because it is a variable.
+
+```
+const square = function(x) {
+  return x*x;
+};
+
+console.log(square(2));
+```
+
+### IIFE - Immediately invokable function expressions
+
+A function you declare and run at the same time.
+Make an expression by putting a function inside parenthesis, and do not forget to put () after expression
+
+```
+(function(){
+  console.log('IIFE is running!');
+})();
+```
+
+```
+(function(name){
+  console.log('Hello' + name);
+})(name);
+```
+
+
+### Property methods
+
+We can put functions inside of objects too.
+When a function is put inside of an object, it is called method.
+
+```
+const todo = {
+  add: function() {
+    console.log('Add to do');
+   },
+   edit: function(id) {
+    console.log(`Edit todo ${id}`);
+   }
+}
+
+todo.add();
+todo.edit(2);
+
+// You can also define functions for this object outside of it.
+todo.delete = function() {
+console.log('Delete todo')
+
+todo.delete();
+
+```
