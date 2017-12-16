@@ -232,3 +232,15 @@ console.log('Delete todo')
 todo.delete();
 
 ```
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Window Object
+
+<hr>
+
+<ul>
+  <li>Window is the global object in client-side javascript. </li>
+  <li>Browser is the global environment in client-side javascript whereas your computer machine is the enviornment in server-side javascript.</li>
+  
+</ul>
