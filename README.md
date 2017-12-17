@@ -1,4 +1,4 @@
-# ModernJavaScript
+# Modern JavaScript
 Learning pure javascript/ vanilla javascript.[Newest features in JS] ES2015 or ES6
 
 <hr>
@@ -423,3 +423,32 @@ Array.from(HTML_COLLECTION)
 ```
 
 
+
+### Traversing the DOM
+
+<blockquote>Dealing with the parents and children of whatever node we select</blockquote>
+
+```
+//Get child nodes -> Gives NodeList of all child nodes
+.childNodes
+
+// Get children element nodes -> returns HTMLCollection
+.children
+
+
+//Get parentNode
+.parentNode
+.parentElement
+
+```
+
+```
+NodeTypes
+
+1 - Element
+2 - Attribute (deprecated)
+3 - Text node
+8 - Comment
+9 - Document itself
+10 - DOCTYPE
+```
