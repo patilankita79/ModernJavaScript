@@ -258,6 +258,66 @@ todo.delete();
 </li>
 </ul>
 
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) DOM Manipulation & Events
+
+<hr>
+
+## What is DOM?
+
+<blockquote>Document Object model is a structured representation of an HTML document.</blockquote>
+
+<ul>
+  <li>It can be thought of as a tree of nodes/elements(any of the HTML tags) created by the browser</li>
+  <li>JavaScript can be used to read/write/manipulate the DOM elements/nodes</li>
+  <li>DOM is object oriented that means each node has its own set of properties and methods that we can add, change, remove</li>
+  <li>Browser gives us <strong>window</strong> object and inside that we have <strong>document</strong> object.</li>
+  <li><strong>Window Object</strong> -> Global object of browser enviornment</li>
+  <li><strong>Document Object</strong> -> Property of window object</li>
+</ul>  
+
+## Properties of Document Object (Attributes of Document Object)
+
+```
+//Get HTML collection from entire document
+document.all
+
+//Get head
+document.head
+
+// Get doctype
+document.doctype
+
+//Get domain -> gives loopback address if you are on localhost
+document.domain
+
+//Get contentType
+documnt.contentType;
+
+```
+
+```
+/*
+* Selecting the stuff without using selectors (Not recommended)
+*/
+
+// Get all forms on the page
+document.forms;
+
+// Get scripts
+document.scripts;
+
+// Get links
+document.links;
+
+// Get images
+document.images;
+
+
+```
+
+
 
 
 
