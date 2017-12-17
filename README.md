@@ -318,6 +318,7 @@ document.images;
 
 ```
 
+
 ## DOM Selectors 
 
 <blockquote>These are document object methods that allow us to pull the things from DOM and we can do different things with elements</blockquote>
@@ -325,6 +326,8 @@ document.images;
 There are two types of DOM Selectors
 1. Single element selectors -> Allow us to grab a single element(either by id or class)
 2. Multiple element selectors -> Allow us to grab all the elements(by class)
+
+<br>
 
 ### DOM Selectors for Single Elements
 
@@ -403,8 +406,9 @@ document.querySelector();
     <td>Change Content</td>
   </tr>
   
-</table>  
+</table>
 
+<br>
 ### DOM Selectors for Multiple Elements
 
 <blockquote>Return either HTML Collection or node list which are not arrays but are similar to arrays</blockquote>
@@ -422,7 +426,7 @@ document.querySelectorAll('any kind of css selector')
 Array.from(HTML_COLLECTION)
 ```
 
-
+<br>
 
 ### Traversing the DOM
 
@@ -451,4 +455,33 @@ NodeTypes
 8 - Comment
 9 - Document itself
 10 - DOCTYPE
+```
+<br>
+
+### Creating elements or DOM elements from scratch
+
+```
+// Create element
+const li = document.createElement('li');
+
+// Add a class
+li.className = 'collection-item';
+
+// Add id
+li.id = 'new-item';
+
+// Add attribute
+li.setAttribute('title', 'New Item');
+
+// Create text node and append
+// Creating textnode -> document.createTextNode('some-text')
+
+li.appendChild(document.createTextNode('Hello World'));
+
+// OUTPUT
+<li class="collection-item" id="new-item" title="New Item">Hello World</li>
+
+
+//Append li as a child to ul (Consider that ul has a class-> ul.collection)
+document.querySelector('ul.collection').appendChild(li)
 ```
