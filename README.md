@@ -485,3 +485,62 @@ li.appendChild(document.createTextNode('Hello World'));
 //Append li as a child to ul (Consider that ul has a class-> ul.collection)
 document.querySelector('ul.collection').appendChild(li)
 ```
+
+<br>
+
+### Removing and replacing elements in DOM
+
+<blockquote>How to remove elements from DOM, how to replace eleemts in DOM, how to work with classes and attributes</blockquote>
+
+<strong>REPLACE ELEMENT</strong>
+
+```
+/*
+Replace heading h1 by h2
+*/
+
+
+// Create element
+const newHeading = document.createElement('h2');
+
+// Add id
+newHeading.id = 'task-title';
+
+// New text node
+newHeading.appendChild(document.createTextNode('NEW HEADING'));
+
+// Get the old hading
+const oldHeading = document.getElementById('task-title');
+
+// Now fetch the parent of old heading, suppose that class of the parent element is card-action
+const cardAction = document.querySelector('.card-action');
+
+// Replace
+cardAction.replaceChild(newHeading, oldHeading);
+
+```
+<br>
+<strong>REMOVE ELEMENT</strong>
+
+```
+const lis = document.querySelectorAll('li');
+const list = document.querySelector('ul');
+
+// Remove list item
+lis[0].remove();      // Removes the first list item
+
+// Remove child elements
+list.removeChild(lis[3]);
+
+```
+
+<br>
+<strong> CLASSES AND ATTRIBUTES</strong>
+
+```
+// Get attributes
+.getAttribute('name-of-attribute');
+
+// Set attribute
+.setAttribute('name-of-attribute', 'Value you have to set');
+```
