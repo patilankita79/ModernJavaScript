@@ -315,11 +315,111 @@ document.links;
 document.images;
 
 
+
+```
+
+## DOM Selectors 
+
+<blockquote>These are document object methods that allow us to pull the things from DOM and we can do different things with elements</blockquote>
+
+There are two types of DOM Selectors
+1. Single element selectors -> Allow us to grab a single element(either by id or class)
+2. Multiple element selectors -> Allow us to grab all the elements(by class)
+
+### DOM Selectors for Single Elements
+
+```
+document.getElementById();
+document.querySelector();
 ```
 
 
+<strong>document.getElementById() -> Selects the element by id</strong>
+<table>
+   <tr>
+      <td><strong>DOM Selector</strong></td>
+    <td><strong>Working</strong></td>
+  </tr>
+  <tr>
+    <td>document.getElementById('name-of-id')</td>
+    <td>Selects the elements by id</td>
+  </tr>
+  <tr>
+      <td>document.getElementById('name-of-id').id</td>
+    <td>Get name of id from selected element by id</td>
+  </tr>
+   <tr>
+      <td>document.getElementById('name-of-id').className</td>
+    <td>Get name of class from selected element by id</td>
+  </tr>
+   <tr>
+      <td>document.getElementById('name-of-id').style.CSS_PROPERTY</td>
+    <td>Change styling (Used specifically for dynamic functionalities)</td>
+  </tr>
+   <tr>
+      <td>document.getElementById('name-of-id').textContent</td>
+    <td>Change Content</td>
+  </tr>
+  <tr>
+      <td>document.getElementById('name-of-id').innerText</td>
+    <td>Change Content</td>
+  </tr>
+  <tr>
+      <td>document.getElementById('name-of-id').innerHTML</td>
+    <td>To innsert HTML when working with DOM, if you want to fetch from some API</td>
+  </tr>
+</table>  
 
 
 
+<strong>document.querySelector() -> Selects the element by anything (Works like jQuery) [More Powerful]</strong>
+<table>
+   <tr>
+      <td><strong>DOM Selector</strong></td>
+    <td><strong>Working</strong></td>
+  </tr>
+  <tr>
+    <td>document.querySelector('#name-of-id')</td>
+    <td>Selects the elements by id</td>
+  </tr>
+  <tr>
+      <td>document.querySelector('.name-of-class')</td>
+    <td>Selects the elements by class</td>
+  </tr>
+   <tr>
+      <td>document.querySelector('h1')</td>
+    <td>Get the element itself, selects first h1 element(in case of multiple h1 elements) (Because it is a single element)</td>
+  </tr>
+   <tr>
+      <td>document.querySelector('element').style.CSS_PROPERTY<</td>
+    <td>Change style</td>
+  </tr>
+   <tr>
+      <td>document.querySelector('element').textContent</td>
+    <td>Change Content</td>
+  </tr>
+  <tr>
+      <td>document.querySelector('element').innerText</td>
+    <td>Change Content</td>
+  </tr>
+  
+</table>  
+
+### DOM Selectors for Multiple Elements
+
+<blockquote>Return either HTML Collection or node list which are not arrays but are similar to arrays</blockquote>
+
+```
+document.getElementsByClassName('class-name') [Use of plural -> Elements]   GLOBAL SCOPE
+document.querySelector('html-element').getElementsByClassName('class-name')  
+document.getElementsByTagName('tag')
+document.querySelectorAll('any kind of css selector')
+```
+
+<strong>Converting HTML collection into array</strong>
+
+```
+Array.from(HTML_COLLECTION)
+```
 
 
