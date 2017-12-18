@@ -544,3 +544,51 @@ list.removeChild(lis[3]);
 // Set attribute
 .setAttribute('name-of-attribute', 'Value you have to set');
 ```
+<br>
+
+### Event Listeners and the Event Object
+
+<blockquote>Basically used for interaction with UI, webpage</blockquote>
+
+<strong>Adding event listeners</strong>
+
+```
+// First we have to select
+document.querySelector(OBJECT).addEventListener('ACTUAL EVENT', function(){
+  console.log('Hello');
+});
+
+// To prevent default behavior,pass event object in function() and prevent the default behavior by calling preventDefault()
+document.querySelector(OBJECT).addEventListener('ACTUAL EVENT', function(e){
+  console.log('Hello');
+  
+  e.preventDefault();
+});
+
+// OR we can use named function instead of unamed function
+document.querySelector('.some class name').addEventListener('click', onClick);
+
+function onClick(e) {
+  console.log('Clicked');
+  
+  // Event target element
+  e.target;
+  e.target.id;
+  e.target.className;
+  e.target.classList;
+  
+  e.target.innerText = 'Hello World';
+  
+  e.type;
+  e.timeStamp;
+  
+  // co-ordinates of an event relative to window
+  e.clientY;
+  
+  e.offsetX;
+  
+  // Event type
+}
+
+```
+
