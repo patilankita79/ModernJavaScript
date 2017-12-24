@@ -592,3 +592,12 @@ function onClick(e) {
 
 ```
 
+### Event Bubbling and Delegation
+
+<strong>Event Bubbling:</strong>
+It is bubbling up of events through the DOM.
+When an event happens on a particular element of a DOM, it will bubble up through its parents.
+
+<strong>Event Delegation</strong>
+It is the opposite of event bubbling.
+It is where we put event listener on one of the parents and then we use logic inside event handler to target the element that we actually want (for that particular event).
