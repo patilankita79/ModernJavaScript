@@ -601,3 +601,25 @@ When an event happens on a particular element of a DOM, it will bubble up throug
 <strong>Event Delegation</strong>
 It is the opposite of event bubbling.
 It is where we put event listener on one of the parents and then we use logic inside event handler to target the element that we actually want (for that particular event).
+<br>
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) LocalStorage and SessionStorage
+
+<hr>
+
+<blockquote>What you set as a value, has to be a string.</blockquote>
+
+<table>
+  <tr>
+    <td>Object to String conversion</td>
+    <td>Stringification</td>
+  </tr>
+  <tr>
+    <td>String to object conversion</td>
+    <td>Parsing</td>
+  </tr>
+</table>
+
+Difference between localStorage and sessionStorage is the localStorage will stay until you manually clear out through settings or through a program and sessionStorage will go away/leave once you close the browser or when the session ends.  
+
