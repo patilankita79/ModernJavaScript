@@ -621,5 +621,15 @@ It is where we put event listener on one of the parents and then we use logic in
   </tr>
 </table>
 
-Difference between localStorage and sessionStorage is the localStorage will stay until you manually clear out through settings or through a program and sessionStorage will go away/leave once you close the browser or when the session ends.  
+Difference between localStorage and sessionStorage is the localStorage will stay until you manually clear out through settings or through a program and sessionStorage will go away/leave once you close the browser or when the session ends. 
 
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Objected Oriented JavaScript - ES5 & ES2015
+
+<hr>
+
+### Constructor and 'this' keyword
+- To create multiple instances of certain of of objects, you need a constrcutor
+- *this* keyword refers to current instance of object
+- When *this* is in the global scope, it pretends to Window object
