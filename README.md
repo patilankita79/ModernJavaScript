@@ -634,9 +634,24 @@ Difference between localStorage and sessionStorage is the localStorage will stay
 - *this* keyword refers to current instance of object
 - When *this* is in the global scope, it pretends to Window object
 
-### Prototypes
+### Prototypes - ES5
 - Each object in JS has a prototype and prototype is an object itself
 - All objects inherit their properties and methods from prototype
 
-### Prototypal Inheritance
+### Prototypal Inheritance - ES5
 - One object type inherit from another object type
+
+### Creating objects using Object.create -ES5
+- Objects can be created using Object.create() and you can pass the prototype inside Object.create(). You can add properties to these objects and with these object you can also access the method of a prototype. This doesn't involve constructors and inheriting prototypes
+
+<hr>
+
+```
+With ES6, we can use classes
+```
+
+### ES6 Classes
+- ES6 is compatible with all modern browsers
+- We can create classes with ES6
+
+  
