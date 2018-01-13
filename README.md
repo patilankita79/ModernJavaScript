@@ -653,5 +653,5 @@ With ES6, we can use classes
 ### ES6 Classes
 - ES6 is compatible with all modern browsers
 - We can create classes with ES6
-
+- We can perform inheritance in ES6. We can extend existing class using extends keyword i.e. we can create subclasses. 
   
