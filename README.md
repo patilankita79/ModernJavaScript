@@ -638,3 +638,5 @@ Difference between localStorage and sessionStorage is the localStorage will stay
 - Each object in JS has a prototype and prototype is an object itself
 - All objects inherit their properties and methods from prototype
 
+### Prototypal Inheritance
+- One object type inherit from another object type
