@@ -654,4 +654,14 @@ With ES6, we can use classes
 - ES6 is compatible with all modern browsers
 - We can create classes with ES6
 - We can perform inheritance in ES6. We can extend existing class using extends keyword i.e. we can create subclasses. 
-  
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Asynchronous JavaScript, AJAX, Fetch API
+
+<hr>
+
+### Ways to handle async code is 
+- Callbacks
+- Promises
+- Async/Await
