@@ -633,3 +633,8 @@ Difference between localStorage and sessionStorage is the localStorage will stay
 - To create multiple instances of certain of of objects, you need a constrcutor
 - *this* keyword refers to current instance of object
 - When *this* is in the global scope, it pretends to Window object
+
+### Prototypes
+- Each object in JS has a prototype and prototype is an object itself
+- All objects inherit their properties and methods from prototype
+
