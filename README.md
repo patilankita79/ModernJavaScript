@@ -657,7 +657,7 @@ With ES6, we can use classes
 
 <hr>
 
-# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)Asynchronous JavaScript, AJAX, Fetch API
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Asynchronous JavaScript, AJAX, Fetch API
 
 <hr>
 
@@ -665,3 +665,7 @@ With ES6, we can use classes
 - Callbacks
 - Promises
 - Async/Await
+
+### AJAX
+- AJAX stands for Asynchronous JavaScript and XML
+- It is a technology that is used to send and receive data from client and server asynchronously
