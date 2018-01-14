@@ -668,4 +668,12 @@ With ES6, we can use classes
 
 ### AJAX
 - AJAX stands for Asynchronous JavaScript and XML
-- It is a technology that is used to send and receive data from client and server asynchronously
+- It is a technology that is used to send and receive data from client and server asynchronously and it is done behind the scenes, without the webpage being explicitly reloaded
+- Server can return data is XML/JSON format. Nowadays, JSON is extensively used in the place of XML in AJAX. AJAX can also work with plain text
+
+### XmlHttpRequest (XHR) object
+- Core technology in AJAX
+- It is provided by the browsers JS environment
+- Its methods transfer data between client and server
+- It can be used with other protocols other than HTTP
+- It can work with XML, JSON, plain text
