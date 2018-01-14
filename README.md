@@ -735,4 +735,7 @@ With ES6, we can use classes
   ### ES6 Promises
   
   - They are alternative to callbacks.Alternative way of handling asynchronous operations.
+  - When you get a response from a promise, you have to use .then()
+  - If there is some kind of error, then we can do .catch()
+
 
