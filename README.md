@@ -729,7 +729,7 @@ With ES6, we can use classes
   
   ### Callback functions
   
-  - Callback is a function that is passed in as a parameter to another function and run inside function body
+  - Callback is a function that is passed in as a parameter to another function and run(or **called**) inside function body
   - We can have synchronous and asynchronous callbacks
   
 
