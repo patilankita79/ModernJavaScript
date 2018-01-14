@@ -732,4 +732,7 @@ With ES6, we can use classes
   - Callback is a function that is passed in as a parameter to another function and run(or **called**) inside function body
   - We can have synchronous and asynchronous callbacks
   
+  ### ES6 Promises
+  
+  - They are alternative to callbacks.Alternative way of handling asynchronous operations.
 
