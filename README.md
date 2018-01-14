@@ -677,3 +677,52 @@ With ES6, we can use classes
 - Its methods transfer data between client and server
 - It can be used with other protocols other than HTTP
 - It can work with XML, JSON, plain text
+
+### API
+- API is Application Programming Interface
+- Contract provided by one piece of software to another
+- API consists of structured request and response
+
+### REST APIs
+- REST stands for Representational State Transfer
+- It is an architecture style for desiging networked applications
+- REST API relies on stateless, client server protocol, almost always HTTP
+- It treats server objects as resources that can be created or destroyed. Example of server side objects could be a blog post which is stored in the database
+
+### HTTP Requests
+
+<table>
+    <tr>
+      <td><strong>GET</strong></td>
+      <td>Retrieve data from the specified resource</td>
+    </tr>
+    <tr>
+      <td><strong>POST</strong></td>
+      <td>Submit data to be processed to a specified resource</td>
+    </tr>
+    <tr>
+      <td><strong>PUT</strong></td>
+      <td>Update a specified resource</td>
+    </tr>
+    <tr>
+      <td><strong>DELETE</strong></td>
+      <td>Delete a specified resource</td>
+    </tr>
+    <tr>
+      <td><strong>HEAD</strong></td>
+      <td>Same as GET but does not return body</td>
+    </tr>
+    <tr>
+      <td><strong>OPTIONS</strong></td>
+      <td>Returns the supported HTTP methods</td>
+    </tr>
+    <tr>
+      <td><strong>PATCH</strong></td>
+      <td>Update partial resources</td>
+    </tr>
+  </table>
+  
+  ### API Endpoints
+  
+  API endpoints are the URLs that are used to access certain things
+
