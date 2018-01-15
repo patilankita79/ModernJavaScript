@@ -757,3 +757,20 @@ With ES6, we can use classes
     .then(res => console.log(res));
   }
   ```
+  
+  
+  ```
+  async function getUsers() {
+    // Await response of the fetch call, fetch call returns a promise
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+    
+    // Only proceed once the promise is resolved
+    const data = await response.json();
+    
+    // Only proceeed when second promise is resolved
+    return data;
+  
+  }
+  
+  getUsers().then(users => console.log(users));
+  ```
