@@ -738,4 +738,22 @@ With ES6, we can use classes
   - When you get a response from a promise, you have to use .then()
   - If there is some kind of error, then we can do .catch()
 
+### Async/Await in ES7 or ES2016
 
+  - We add a keyword *async* at the begining of a function and that makes a function to return a promise
+  
+  ```
+  async function myFunction(){
+    const promise = new Promise((resolve, reject) => {
+      setTimeout(() => resolve('Hello'), 1000);
+    });
+    
+    const res = await promise; // Wait until promise is resolved
+    
+    res;
+  }
+  
+  myFunc() {
+    .then(res => console.log(res));
+  }
+  ```
