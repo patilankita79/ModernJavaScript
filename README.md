@@ -774,3 +774,14 @@ With ES6, we can use classes
   
   getUsers().then(users => console.log(users));
   ```
+
+<hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Error handling and regular expressions
+
+<hr>
+
+### Error handling with Try..Catch
+
+- Try block lets you write some code and test for errors and Catch block lets ys handle that error if there is any.
+- We can also throw our own error.
