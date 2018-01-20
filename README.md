@@ -864,7 +864,6 @@ Similar to conditions<br>
 ```
 /x(?=y)/    // Match x only if it is followed by y
 /x(?!y)/            // Match x only if it is not followed by y
-/x(?=!y)/
 
 ```
 
