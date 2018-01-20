@@ -830,5 +830,12 @@ To use ? as a literal, we need to use escape character, i.e. prefix the literal 
 
 ```
 
+### Character Sets and Quantifiers
 
+```
+Brackets [] => Character sets
+Braces {} => Quantifiers
+Parentheses () => Grouping
+
+```
 
