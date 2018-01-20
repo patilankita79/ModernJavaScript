@@ -785,3 +785,25 @@ With ES6, we can use classes
 
 - Try block lets you write some code and test for errors and Catch block lets ys handle that error if there is any.
 - We can also throw our own error.
+
+### Regular Expressions
+
+- Regular Expression is basically used to describe pattern of characters
+- It is commonly used for
+  - Pattern Searching 
+  - Pattern Matching
+  - Validation
+  - Pulling information out of body of text or body of characters
+- We can use flags in regular expression
+  - flag i is used to make a regular expression case insensitive
+  - flag g is used for global search (searches all instances of the word)
+ 
+### Different functions in JavaScript that are used to evaluate the Regular Expressions
+
+1. **exec()** => returns the result in an array if there is a match, otherwise it returns null
+2. **test()** => returns true if there is a match otherwise it returns false
+3. **match()** => returns result array or null
+4. **search()** => returns the index of first match, otherwise returns -1
+5. **replace()** => returns new string with some or all matches of a pattern
+
+
