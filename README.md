@@ -839,3 +839,33 @@ Parentheses () => Grouping
 
 ```
 
+### Shorthand Character Classes
+
+If we we want to search for a word character or digit or white space character shorthand character classes can be used
+
+```
+/\w/       // Word character - Alphanumeric(any letter or number) or underscore
+/\w+/      // + => one or more
+/\W/       // Non-word character
+/\d/       // Match any digit
+/\d+/      // Match any digit 0 or more times
+/\D/       // Match any non-digit
+/\s/       // Match whitespace character
+/\S/       // Match non whitespace character
+/\b/       // word boundary
+
+
+```
+
+### Assertions
+
+Similar to conditions<br>
+
+```
+/x(?=y)/    // Match x only if it is followed by y
+/x(?!y)/            // Match x only if it is not followed by y
+/x(?=!y)/
+
+```
+
+
