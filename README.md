@@ -867,4 +867,22 @@ Similar to conditions<br>
 
 ```
 
+<hr>
 
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Other new features in ES2015+
+
+<hr>
+
+### Iterators and Generators
+
+- Iterators and generators are used to iterate through something
+- You can call part of a return, pause it and then call next return
+- Iterators are advanced loops that can be paused and generators are the functions that can be paused and return multiple values called yield values
+- Syntax for Generator =>
+
+```
+  function* functionName() {
+  
+ }
+ 
+ ```
