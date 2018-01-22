@@ -902,4 +902,8 @@ Similar to conditions<br>
  ### Maps
  
  - Object structure that holds key-value pair and any type (object/obejct reference type/primitive) can be used as a KEY or VALUE
- -
+ 
+ 
+ ### Sets
+ 
+ - Store unique values of any type
