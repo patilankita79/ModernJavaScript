@@ -899,3 +899,7 @@ Similar to conditions<br>
  
  - Gives easy way to assign variables and extract variables from arrays and objects
  
+ ### Maps
+ 
+ - Object structure that holds key-value pair and any type (object/obejct reference type/primitive) can be used as a KEY or VALUE
+ -
