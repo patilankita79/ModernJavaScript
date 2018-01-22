@@ -886,3 +886,11 @@ Similar to conditions<br>
  }
  
  ```
+ 
+ ### Symbols
+ 
+ - Primitive data types in JavaScript
+ - Every symbol is unique. Main purpose is uniqueness. They are used for object property identifiers
+ - We can create unique object keys using Symbols
+ - Symbols are not enumerable in for..in loop
+ - Symbols are ignored by JSON.stringify()
