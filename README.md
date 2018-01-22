@@ -894,3 +894,8 @@ Similar to conditions<br>
  - We can create unique object keys using Symbols
  - Symbols are not enumerable in for..in loop
  - Symbols are ignored by JSON.stringify()
+ 
+ ### Destructuring
+ 
+ - Gives easy way to assign variables and extract variables from arrays and objects
+ 
