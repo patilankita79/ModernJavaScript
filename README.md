@@ -907,3 +907,87 @@ Similar to conditions<br>
  ### Sets
  
  - Store unique values of any type
+ 
+ <hr>
+
+# ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) JavaScript Patterns
+
+<hr>
+
+### What are JavaScript Patterns?
+
+- Pattern is a re-usable solution that can be applied to occuring problems in software design.
+- Pattern can be thought of as a programming templates or specific way for writing codes
+- Situations vary significantly. Factory pattern and prototype pattern are used for object creation. The module pattern and its variations are used for overall structure. MVC is complete software design pattern.
+
+<br>
+
+**JavaScript Patterns**
+
+<table>
+  <tr>
+    <td><strong>Patterns<strong></td>
+    <td><strong>Description<strong></td>
+  </tr>
+  <tr>
+    <td>Module</td>
+    <td>Used for overall structure, it breaks the code into modules so that we can have private and public variables and functions</td>
+  </tr>
+  <tr>
+    <td>Reavling Module Pattern</td>
+    <td>Used for overall structure, it breaks the code into modules so that we can have private and public variables and functions</td>
+  </tr>
+  <tr>
+    <td>Singleton</td>
+    <td>Variation of Module pattern, where we can create an instance of an object</td>
+  </tr>
+  <tr>
+    <td>Factory</td>
+    <td>This pattern is used to create many objects</td>
+  </tr>
+  <tr>
+    <td>Observer</td>
+    <td>This pattern allows us to subscribe and unsubscribe to events</td>
+  </tr>
+  <tr>
+    <td>Mediator</td>
+    <td>It has central mediator</td>
+  </tr>
+  <tr>
+    <td>State</td>
+    <td>This pattern allows us to have certain state in the application and we can change the state</td>
+  </tr>
+</table>
+
+
+<br>
+
+ES6 has introduced actual modules in the JavaScript => we can use separate files to export modules which are nothing but custom pieces of code and import them to new file. But that is not still supported in modern browser. So in order to work that, we have to use compiler like babel along with module loader like webpack.
+
+<br>
+
+### Module Pattern
+
+- Module pattern allows us to break the parts of the code into self-contained modules with private properties and methods
+- Module is going to be IIFE (It runs right away)
+
+```
+// Basic structure or blueprint for module pattern
+
+(function() {
+    // Declare private variables and functions which will not be accessible outside of the module
+
+    return {
+        // Declare public variables and functions which will be accessible outside of the module
+    }
+})();
+
+```
+
+
+### Revealing Module Pattern
+
+- This is very similar to Module pattern
+- Main difference is instead of returning our own public function, we map an object literal to the private funcions you want to reveal from your module.
+
+
