@@ -10,7 +10,7 @@ Learning pure javascript/ vanilla javascript.[Newest features in JS] ES2015 or E
 There are 3 possible keywords to define a variable
 1. var
 2. let
-3. cont (introduced in ES6)
+3. const (introduced in ES6)
 
 <strong>Important points [Variables]:</strong><br>
 1. Variables can include letters, numbers, _, $
