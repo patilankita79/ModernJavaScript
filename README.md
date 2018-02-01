@@ -990,4 +990,13 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 - This is very similar to Module pattern
 - Main difference is instead of returning our own public function, we map an object literal to the private funcions you want to reveal from your module.
 
+### Singleton Pattern
+
+- Singleton pattern is the manifestation of module pattern
+- Singleton object is an immediate annonymous function and it can only return one instance of an object at a time
+- Like module pattern, it maintains the private reference, that nothing can be accessed from outside
+
+### Factory Pattern
+
+- It is used to create multiple objects
 
