@@ -1013,3 +1013,8 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 
 - This is the behavioral pattern and idea is to have a mediator which is an interface for communicating with callees which are mediated objects
 
+### State Pattern
+
+- This is also bheavioral pattern. The state can be changed throughout our script.
+
+
