@@ -996,7 +996,10 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 - Singleton object is an immediate annonymous function and it can only return one instance of an object at a time
 - Like module pattern, it maintains the private reference, that nothing can be accessed from outside
 
-### Factory Pattern
+### Factory Pattern / Factory Method
 
 - It is used to create multiple objects
+- It is a way of creating of interafce for creating objects but we can let subclasses to decide which classes to instantiate
+- Factory pattern is used in applications to manage, maintain, manipulate collection of objects that are different but have same characteristics
+- This pattern is good when you have different objects but they share lot of properties and methods
 
