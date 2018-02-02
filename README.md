@@ -1005,6 +1005,11 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 
 ### Observer Pattern
 
-- This pattern allows us to subscribe and unsubscribe to certain events or certain functionalities
+- This is the behavioral pattern allows us to subscribe and unsubscribe to certain events or certain functionalities
 - It can be used to notify DOM if certain elements are needed to be updated
 - AngularJS relies heavily on this pattern through event management with scope
+
+### Mediator Pattern
+
+- This is the behavioral pattern and idea is to have a mediator which is an interface for communicating with callees which are mediated objects
+
