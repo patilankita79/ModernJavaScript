@@ -1003,3 +1003,8 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 - Factory pattern is used in applications to manage, maintain, manipulate collection of objects that are different but have same characteristics
 - This pattern is good when you have different objects but they share lot of properties and methods
 
+### Observer Pattern
+
+- This pattern allows us to subscribe and unsubscribe to certain events or certain functionalities
+- It can be used to notify DOM if certain elements are needed to be updated
+- AngularJS relies heavily on this pattern through event management with scope
