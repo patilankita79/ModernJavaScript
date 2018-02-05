@@ -754,7 +754,7 @@ With ES6, we can use classes
     
     const res = await promise; // Wait until promise is resolved
     
-    res;
+    return res;
   }
   
   myFunc() {
