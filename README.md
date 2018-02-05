@@ -823,7 +823,7 @@ With ES6, we can use classes
 /^h/ => Must start with h (Case sensitive)
 /^h/i => Must start with h (Case insensitive)
 /n$/ => Must end with n
-/hello/i => Must begin with h and end with o
+/^hello$/i => Must begin with h and end with o
 /h.llo/i; =>  Matches any ONE character
 /h*llo/i; =>  Matches any character 0 or more
 /gre?a?yi* => This means e is optional and a is optional
