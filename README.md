@@ -21,6 +21,10 @@ There are 3 possible keywords to define a variable
 6. let keyword works very similar to var
 7. variables defined with const cannot be reassigned. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
 
+
+- let gives block scope local variable whereas var provides global scope
+- Hence, with let we can limit the scope of a variable
+
 <hr>
 
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Datatypes
