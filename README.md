@@ -32,7 +32,9 @@ There are 3 possible keywords to define a variable
 <hr>
 
 **JavaScript is a loosely typed or dynamic language. That means you don't have to declare the type of variable ahead of time**
-
+<br><br>
+**JavaScript is dynamically typed language. That means same variable can hold multiple types. Types are associated with values not variables.**
+<br>
 1. Primitive Datatypes
 2. Reference Datatypes
 <br>
@@ -82,7 +84,6 @@ There are 3 possible keywords to define a variable
 
 <br>
 
-JavaScript is dynamically typed language. That means same variable can hold multiple types. Types are associated with values not variables.
 
 <hr>
 
