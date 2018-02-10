@@ -83,10 +83,14 @@ There are 3 possible keywords to define a variable
 </table>
 
 <br>
+
 - Symbol is a unique and immutable datatype and may be used as an identifier for object properties
 - Null - In JavaScript, null is nothing. It is supposed to be something that doesn't exist.
 - Undefiend - In JavaScript, a variable without value has the value undefined. Also, any variable can be emptied by setting the value to undefined.
 - Object - An object is a collection of properties. The properties are identified by using key values. Property keys are used to access the properties and their values. Object properties are written as key:value pairs separated by commas.
+
+
+
 <hr>
 
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Array and array methods
@@ -242,6 +246,13 @@ todo.delete();
 
 ```
 
+<hr>
+
+## Arrow functions
+
+- Arrow function expressions has shorter syntax as compared to function expressions.
+- Arrow functions are anonymous functions
+- Arrows share the same lexical **this** as their surrounding code.
 <hr>
 
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Window Object
