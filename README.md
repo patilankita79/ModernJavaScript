@@ -31,6 +31,8 @@ There are 3 possible keywords to define a variable
 
 <hr>
 
+**JavaScript is a loosely typed or dynamic language. That means you don't have to declare the type of variable ahead of time**
+
 1. Primitive Datatypes
 2. Reference Datatypes
 <br>
