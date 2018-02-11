@@ -19,7 +19,7 @@ There are 3 possible keywords to define a variable
 4. Variables starting with _ are ususally private variables
 5. In case of multiword variables, use camel case(e.g. var firstName), in case of object oriented programming, use pascal case(e.g. var FirstName)
 6. let keyword works very similar to var
-7. variables defined with const cannot be reassigned. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
+7. The const declaration creates a read-only reference to a value. Variables defined with const cannot be reassigned. If you try to reassign, it returns **undefined**. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
 
 
 - let gives block scope local variable whereas var provides global scope
