@@ -808,15 +808,24 @@ With ES6, we can use classes
 
 ### Regular Expressions
 
+**Regular Expressions (RegExps) are the patterns used to match the character combinations in strings. In JavaScript, regular expressions are also objects**
+
 - Regular Expression is basically used to describe pattern of characters
 - It is commonly used for
   - Pattern Searching 
   - Pattern Matching
   - Validation
   - Pulling information out of body of text or body of characters
+- Regular expressions can be constructed in two ways
+  - Using a regular expression literal which consists of pattern enclosed between two slashes
+  - Using the constructor function of RegExp object
 - We can use flags in regular expression
-  - flag i is used to make a regular expression case insensitive
-  - flag g is used for global search (searches all instances of the word)
+  - flag i is used to make a regular expression case insensitive **(ignore case)**
+  - flag g is used for global search (searches all instances of the word) **(global match)**
+  - flag m is used for multiline. Treats begining (^) and end characters ($) as working over multiple lines.
+  - flag u is used for unicode. Treat pattern as the sequence of unicode code points.
+  - flag y is used for sticky. Matches only from the index indicated by the lastIndex property of this regular expression in the target string.
+
  
 ### Different functions in JavaScript that are used to evaluate the Regular Expressions
 
