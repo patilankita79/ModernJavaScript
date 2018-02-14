@@ -35,7 +35,7 @@ console.log(c);
 ```
 
 Output of above code snippet would be **undefined**. <br>
-**Because in JavaScript, a variable without as value has value undefined** and when you try to assign a value, you are basically trying to reassign the value to the const variable.
+**Because in JavaScript, a variable without a value has value undefined (and this is done by JS for you)** and when you try to assign a value, you are basically trying to reassign the value to the const variable.
 
 <br>
 
@@ -114,8 +114,28 @@ Since the value of const is an object, it lets us modify an object. But we canno
 <br>
 
 - Symbol is a unique and immutable datatype and may be used as an identifier for object properties
+
+<br>
+
 - Null - In JavaScript, null is nothing. It is supposed to be something that doesn't exist.
-- Undefiend - In JavaScript, a variable without value has the value undefined. Also, any variable can be emptied by setting the value to undefined.
+- Undefiend - In JavaScript, a variable without value has the value undefined.
+
+- **Similarity between null and undefined** is that they both represent empty values
+- If you want to clear the value of a variable, you can set it null. 
+- Also, any variable can be emptied by setting the value to undefined manually. **(Not recommended)**
+
+- If you do typeof(undefined), the value would be undefined. But, if you do typeof(null), the value would be object
+
+```
+typeof(undefined)
+// Output: undefined
+
+typeof(null)
+// Output: Object
+```
+
+<br>
+
 - Object - An object is a collection of properties. The properties are identified by using key values. Property keys are used to access the properties and their values. Object properties are written as key:value pairs separated by commas.
 
 
