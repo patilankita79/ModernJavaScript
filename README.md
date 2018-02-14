@@ -114,9 +114,6 @@ Since the value of const is an object, it lets us modify an object. But we canno
 <br>
 
 - Symbol is a unique and immutable datatype and may be used as an identifier for object properties
-
-<br>
-
 - Null - In JavaScript, null is nothing. It is supposed to be something that doesn't exist.
 - Undefiend - In JavaScript, a variable without value has the value undefined.
 
