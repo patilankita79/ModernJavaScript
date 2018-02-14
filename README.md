@@ -713,7 +713,7 @@ Difference between localStorage and sessionStorage is the localStorage will stay
 
 ### Constructor and 'this' keyword
 - To create multiple instances of certain of of objects, you need a constrcutor
-- *this* keyword refers to current instance of object
+- *this* keyword refers to current instance of object (current object in context)
 - When *this* is in the global scope, it pretends to Window object
 
 ### Prototypes - ES5
@@ -817,8 +817,13 @@ With ES6, we can use classes
   ### ES6 Promises
   
   - They are alternative to callbacks.Alternative way of handling asynchronous operations.
+  - JS Promises are like placeholder object for an action that has not completed/finished yet but is expected to complete in the future. 
+  - Hence, promise is the placeholder for the result of some kind of asynchronous operation
+  - Promise has a callback function with resolve and reject
   - When you get a response from a promise, you have to use .then()
   - If there is some kind of error, then we can do .catch()
+  <br>
+  **If we make HTTP request for some data** => HTTP request is asynchronous in nature. As soon as that asynchronous request is made, it returns a promise object straight away before the data is retreived and brought back to us. Within that promise we can register the callbacks for success and failure which will run when the request completes. Hence, after request completes, on success, to get a response from promise, use .then() and on failure, to catch error use .catch(). So, basically we **resolve** the promise on success and **reject** the promise on failure.
 
 ### Async/Await in ES7 or ES2016
 
