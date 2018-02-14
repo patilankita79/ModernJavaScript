@@ -230,11 +230,20 @@ Backticks are used and to print a variable value, ${variable} is used.
 
 <hr>
 
+### Function declaration
+
+```
+function square(x) {
+  return x * x;
+}
+
+sqaure(2)
+```
 
 ### Function expressions
 
 Putting a function as a variable assignment.
-Usually a named variable and anonymous function.
+**Usually a named variable and anonymous function.**
 Do not forget to put ; at the end because it is a variable.
 
 ```
@@ -244,6 +253,13 @@ const square = function(x) {
 
 console.log(square(2));
 ```
+
+**Difference between function declaration and function expression**
+
+- First difference is syntactic difference
+- Second difference => if we execute the function before it is declared, it executes that means it is available to us even before its definition. However, function expression does not behave in the same mannner. Since, function expression is saved in a variable, it behaves like a variable and has a variable. Therefore, it won't be available before its definition.
+- When you want to pass one function to another function, you cannot pass the function declaration. But, you can pass the function expression, because it is a variable and a variable can be passed to another function.
+
 
 ### IIFE - Immediately invokable function expressions
 
