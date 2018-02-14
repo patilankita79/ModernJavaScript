@@ -22,6 +22,7 @@ There are 3 possible keywords to define a variable
 7. The const declaration creates a read-only reference to a value. **Variables defined with const cannot be reassigned.** If you try to reassign, it returns **undefined**. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
 
 <br>
+
 - let has block scope (local variable) whereas var has global scope 
 - Hence, with let we can limit the scope of a variable
 - Variables defined with var gets hoisted at the top of its function whereas variables defined with let doesn't get hoisted.
@@ -34,7 +35,7 @@ console.log(c);
 ```
 
 Output of above code snippet would be **undefined**. <br>
-Because if you don't assign anything to const, by default **undefined** is assigned and when you try to assign a value, you are basically trying to reassign the value to the const variable.
+**Because in JavaScript, a variable without as value has value undefined** and when you try to assign a value, you are basically trying to reassign the value to the const variable.
 
 <br>
 
