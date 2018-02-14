@@ -19,13 +19,40 @@ There are 3 possible keywords to define a variable
 4. Variables starting with _ are ususally private variables
 5. In case of multiword variables, use camel case(e.g. var firstName), in case of object oriented programming, use pascal case(e.g. var FirstName)
 6. let keyword works very similar to var with significant differences
-7. The const declaration creates a read-only reference to a value. Variables defined with const cannot be reassigned. If you try to reassign, it returns **undefined**. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
+7. The const declaration creates a read-only reference to a value. **Variables defined with const cannot be reassigned.** If you try to reassign, it returns **undefined**. They can be mutated but cannot be reassigned (in case of reference datatypes -> array, objects)
 
-
+<br>
 - let has block scope (local variable) whereas var has global scope 
 - Hence, with let we can limit the scope of a variable
 - Variables defined with var gets hoisted at the top of its function whereas variables defined with let doesn't get hoisted.
 
+
+```
+const c;
+c = 1;
+console.log(c);
+```
+
+Output of above code snippet would be **undefined**. <br>
+Because if you don't assign anything to const, by default **undefined** is assigned and when you try to assign a value, you are basically trying to reassign the value to the const variable.
+
+<br>
+
+If the value assigned to const is not primitive, i.e. reference datatypes (arrays, objects) then we can modify the object.
+
+```
+const c = [1, 2]
+c.push(3)
+console.log(c)
+
+//Output
+[1, 2, 3]
+```
+
+Output of the above code snippet led to an array with values 1, 2, 3. <br>
+Since the value of const is an object, it lets us modify an object. But we cannot reassign the values
+
+<br>
 <hr>
 
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Datatypes
