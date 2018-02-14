@@ -823,7 +823,9 @@ With ES6, we can use classes
   - When you get a response from a promise, you have to use .then()
   - If there is some kind of error, then we can do .catch()
   <br>
-  **If we make HTTP request for some data** => HTTP request is asynchronous in nature. As soon as that asynchronous request is made, it returns a promise object straight away before the data is retreived and brought back to us. Within that promise we can register the callbacks for success and failure which will run when the request completes. Hence, after request completes, on success, to get a response from promise, use .then() and on failure, to catch error use .catch(). So, basically we **resolve** the promise on success and **reject** the promise on failure.
+
+**If we make HTTP request for some data** => HTTP request is asynchronous in nature. As soon as that asynchronous request is made, it returns a promise object straight away before the data is retreived and brought back to us. Within that promise we can register the callbacks for success and failure which will run when the request completes. Hence, after request completes, on success, to get a response from promise, use .then() and on failure, to catch error use .catch(). So, basically we **resolve** the promise on success and **reject** the promise on failure.
+
 
 ### Async/Await in ES7 or ES2016
 
@@ -861,6 +863,30 @@ With ES6, we can use classes
   
   getUsers().then(users => console.log(users));
   ```
+<br>
+<hr>
+
+## What will be the output of following code?
+
+```
+setTimeout(function() {
+  console.log('a');
+}, 0);
+
+console.log('b');
+console.log('c');
+```
+
+Output 
+
+```
+b
+c
+a
+```
+
+Explaination: <br>
+Even though, you have zero timeout, the function won't execute right away and that is because setTimeout() is an asynchronous function. Therefore, setTimeout() has to wait till everything on the stack is executed/finished. Therefore, console.log('b') and console.log('c') which are on the stack will get executed first and then asynchronous code will go to event loop and get executed.
 
 <hr>
 
