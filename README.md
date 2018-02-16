@@ -217,6 +217,12 @@ val = numbers.find(under50)
 
 <hr>
 
+- For iterating through arrays or strings(any type of iterable object) use **for..of loop**
+- For iterating through objects(with key-value pair) other than arrays and strings use **for..in loop**
+
+<hr>
+
+
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Template literals/strings (ES6 feature)
 
 <hr>
@@ -225,6 +231,7 @@ Backticks are used and to print a variable value, ${variable} is used.
 
 
 <hr>
+
 
 # ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Function Declarations and expressions, IIFE, property methods
 
