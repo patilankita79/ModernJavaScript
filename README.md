@@ -1146,4 +1146,16 @@ ES6 has introduced actual modules in the JavaScript => we can use separate files
 
 - This is also bheavioral pattern. The state can be changed throughout our script.
 
+<hr>
 
+## Object Destructuring
+
+- Object destructuring lets you pull out the properties from an object creating variables.
+- With object destructuring, we can make new variables from an object's properties
+
+```
+var user = {name: 'Ankita', age: 23};
+var {name} = user;
+
+console.log(name);  // Output: Ankita
+```
